@@ -8,8 +8,8 @@ import datetime
 script_dir = os.path.dirname(os.path.abspath(__file__))
 game_count = 14 ### The number of total games expected in one day
 current_date = datetime.date.today()
-# date_string = "%s%s%s" % (current_date.strftime('%Y'), current_date.strftime('%m'), current_date.strftime('%d'))
-date_string = "20180930" ### Used for testing
+date_string = "%s%s%s" % (current_date.strftime('%Y'), current_date.strftime('%m'), current_date.strftime('%d'))
+# date_string = "20180930" ### Used for testing
 
 
 ################################################################################
