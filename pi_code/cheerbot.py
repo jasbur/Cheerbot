@@ -6,7 +6,7 @@ import animation
 lib.check_connection() ### Check for active internet connection
 config_hash = lib.config_file_hash()
 
-initial_score_check = False
+initial_score_check = True
 team = Team(config_hash['team'])
 team.find_json_id()
 
