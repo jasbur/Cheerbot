@@ -13,7 +13,6 @@ team.find_json_id()
 # Main execution loop
 while True:
     current_score = lib.get_score(team)
-    print("####Current score: " + str(current_score))
 
     # Call cheer_check and equalize the previous and cureent scores then cheer
     if lib.cheer_check(current_score, team):
