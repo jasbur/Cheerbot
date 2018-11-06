@@ -79,7 +79,7 @@ def cheer_check(current_score, team):
 def config_file_hash():
     config_hash = {}
 
-    with open('cheerbot.conf') as config_file:
+    with open(script_dir + '/cheerbot.conf') as config_file:
         for line in config_file:
             line_key = line.split("=")[0]
             line_value = line.split("=")[1].rstrip()
