@@ -6,6 +6,11 @@ the main script from any crashes that might be caused by a malformed response fr
 Cheerbot will cheer for whichever team you have specified in the cheerbot.conf
 file in this directory.
 
+When a cheer is triggered the play_animation function will be called from 
+animation.py You can have anything occur here really (play sounds, blink lights, etc.)
+The servo_animation_example/servo_animation_example.py file demonstrates the use
+of servos synchronized with .wav audio files. This is the setup I use on my Cheerbot.
+
 cheerbot.conf file:
 
     "team=": The NFL abbreviation for the team you want Cheerbot to cheer for.
